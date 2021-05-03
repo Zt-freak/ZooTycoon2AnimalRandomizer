@@ -26,7 +26,7 @@ function randomizeSpecies(args)
                         end
 
                         local gender = "F"
-                        if (isAdult == true) then
+                        if (isMale == true) then
                             gender = "M"
                         end
 
