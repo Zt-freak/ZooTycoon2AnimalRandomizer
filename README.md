@@ -9,4 +9,4 @@ Extra Information:
 - Description: Two cheat codes to compliment Thom's mod:
   - Name an animal 'random' and it will transform into a random animal
   - Name an animal 'keeprolling' and it will keep transforming into random animals
-- License: 
+- License: MIT License
