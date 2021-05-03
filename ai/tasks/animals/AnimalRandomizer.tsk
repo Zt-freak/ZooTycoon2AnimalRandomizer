@@ -1,5 +1,5 @@
 <BFAITaskTemplateList>
-   <BFAITaskTemplate Name="SetSuper" Priority="10"  UniqueID="Cheater:AnimalRandomizer">
+   <BFAITaskTemplate Name="RandomiseSpecies" Priority="10"  UniqueID="Cheater:AnimalRandomizer">
       <BFAICreateData>
          <Subjects>
             <Cheater/>
