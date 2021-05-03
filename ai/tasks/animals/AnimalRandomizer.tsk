@@ -1,0 +1,24 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="SetSuper" Priority="10"  UniqueID="Cheater:AnimalRandomizer">
+      <BFAICreateData>
+         <Subjects>
+            <Cheater/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10000"/>
+      <BFBehExecTask>
+     <BFBehScript context="behavior" file="scripts/AnimalRandomizer.lua" function="randomizeSpecies" />
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>
